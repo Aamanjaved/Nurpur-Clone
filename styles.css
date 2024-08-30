@@ -1,0 +1,470 @@
+/* styles.css */
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Assets/background-image.png);
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+header {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0; /* Vertical padding for the header */
+    border-bottom: 1px solid #e1e1e1; /* Bottom border for separation */
+    /* position: fixed; */
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Maximum width of the header */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Set a fixed height for the logo */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    display: flex;
+    gap: 100px; /* Space between menu items */
+    margin-left: 200px;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    font-size: 20px; /* Font size for navigation links */
+}
+
+
+
+.box:hover {
+    color: #1f9684;
+    border: #1f9684 solid 1px;
+    border-radius: 30px;
+    padding: 5px 18px;
+}
+
+
+.nurpur-video{
+    width: 100%;
+}
+
+
+.logo-Our-Story{
+    margin-left: 45%;
+}
+
+.logo-Our-Story-img{
+    width: 100px;
+}
+
+.logo-Our-Story-text{
+    margin-top: -70px;
+    margin-left: -15px;
+    color: #00625A;
+    font-size: 25px;
+}
+
+.img-product{
+    width: 700px;
+}
+
+.text-about{
+    display: flex;
+    margin-top: 90px;
+}
+
+.text-blow-logo{
+    width: 330px;
+    margin-left: 16%;
+    font-size: 17px;
+    height: 90px;
+    color: rgb(87, 86, 86);
+}
+
+.product-img{
+    margin-left: 100px;
+}
+
+
+.img-product{
+    width: 500px;
+}
+
+.img4{
+    width: 100%;
+}
+
+
+
+
+.milk-image{
+    width: 400px;
+    height: 400px;
+    margin: -45px 0 0 71%;
+}
+
+.logo-Product-Line{
+    margin-left: 45%;
+    margin-top: 100px;
+    position: absolute;
+    margin: -300px 0 100px 650px;
+}
+
+.logo-Product-Line-img{
+    width: 100px;
+}
+
+.logo-Product-Line-text{
+    margin-top: -70px;
+    margin-left: -30px;
+    color: #00625A;
+    font-size: 25px;
+
+}
+
+.product-section{
+    margin-left: 100px;
+}
+
+.milk-image-2{
+    width: 400px;
+    height: 650px;
+    margin: 150px 0 0 -200px;
+}
+
+.products-pics-main-first{
+    display: flex;
+    gap: 110px;
+    margin-top: -780px;
+    margin-left: 150px;
+}
+
+.products-pics{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.product-pic-one{
+    width: 250px;
+}
+
+.product-pic-two{
+    width: 250px;
+}
+
+.product-pic-three{
+    width: 250px;
+}
+
+.products-pics-main-second{
+    margin-top: 50px;
+    display: flex;
+    gap: 300px;
+    margin-left: 200px;
+}
+.product-pic-four{
+    width: 250px;
+}
+
+.product-pic-five{
+    width: 250px;
+}
+
+
+.product-para{
+    margin-top: 25px;
+}
+
+.logo-EAT-WITH-NURPUR{
+    margin-left: 46%;
+    margin-top: 250px;
+}
+
+.logo-EAT-WITH-NURPUR-img{
+    width: 100px;
+}
+
+.logo-EAT-WITH-NURPUR-text{
+    margin-top: -70px;
+    margin-left: -7%;
+    font-size: 25px;
+    color: #00625A;
+}
+
+
+.slider-container{
+    margin: 100px 0 0 15%;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    height: 600px;
+    min-width: 300px;
+    margin: 0 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.burger-img{
+    border-radius: 50%;
+    width: 250px;
+    height: 220px;
+}
+
+.burger-head{
+    margin-top: 20px;
+    color: #3c6f97;
+}
+
+.burger-para{
+    margin-top: 20px;
+}
+
+
+.recipe-button{
+    background-color: white;
+    border: #48a294 solid 1px;
+    color: #48a294;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 250px 0 0 30px;
+}
+
+
+.logo-media{
+    margin-left: 45%;
+    margin-top: 100px;
+    /* position: absolute; */
+    /* margin: -300px 0 100px 650px; */
+}
+
+.logo-media-img{
+    width: 100px;
+}
+
+.logo-media-text{
+    margin-top: -67px;
+    margin-left: 10px;
+    color: #00625A;
+    font-size: 25px;
+}
+
+.final-img{
+    margin: 100px 0 0 16%;
+    display: flex;
+    gap: 50px;
+}
+
+.final-img-1{
+    width: 321px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.final-img-2{
+    width: 321px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.final-img-3{
+    width: 321px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.final-img-text{
+    margin: 20px 0 0 100px;
+    font-weight: bold;
+    color: #00625A;
+}
+
+
+footer{
+    width: 100%;
+    margin: 250px 200px 0 -110px;
+    /* display: flex; */
+}
+
+.logo-images{
+    width: 80%;
+    margin: 0 20%;
+    display: flex;
+}
+
+
+
+.logo-image-3{
+    margin-top: 50px;
+}
+
+
+
+.logo-first-image{
+    width: 90px;
+}
+
+.logo-second-image{
+    width: 115px;
+}
+
+.logo-third-image{
+    width: 115px;
+}
+
+
+
+.anchor-tag{
+        text-decoration: none;
+        color: black;
+}
+
+.anchor-tag:hover{
+    color: #1f9684;
+}
+
+
+
+.heading{
+    margin: -10px 100px 0 -280px;
+}
+
+.href{
+    width: 90%;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 280px;
+}
+
+
+
+
+
+.contact-container{
+    width: 100%;
+    height: 50px;
+    margin: 150px 600px 0 0px;
+}
+
+ 
+.contact-us{
+    font-size: 10px;
+
+}
+
+
+.main-container-contact-logo{
+    color: #1f9684;
+    margin: 100px 200px 0 -100px;
+}
+
+
+
+
+.phone-icon-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+.phone-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    border: #1f9684 solid 2px;
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+
+.call-me-text{
+    display: flex;
+    margin: -30px 0px 0 45px;
+    color: white;
+    position: absolute;
+}
+
+
+.phone-icon-container:hover .phone-icon {
+    color: white;
+    padding: 1px 60px 0 10px;
+    border-radius: 30px;
+    background-color: #1f9684;
+    transform: scale(1.5); /* Expands the icon */
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+
+
+.s-logos{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+
+.anchor-logo{
+    color: #1f9684;
+}
+
+
+
+
+
+.last-text{
+    margin: 50px 0 0 500px;
+    font-weight: 600;
+}
